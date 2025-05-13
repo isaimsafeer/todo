@@ -1,0 +1,20 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: #888;
+}
+
+.list-group-item {
+    transition: all 0.2s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.text-decoration-line-through {
+    opacity: 0.6;
+}
